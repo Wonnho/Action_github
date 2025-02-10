@@ -1,4 +1,5 @@
-name:Hollo Github Action
+name: Hollo Github Action
+
 on:
   push:
     branches:
