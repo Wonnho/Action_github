@@ -5,8 +5,8 @@ on:
       - main
 
 jobs:
-  ssh-agent: 
-    runs-on:ubuntu-24.04
+  ssh-agent:
+    runs-on: ubuntu-24.04
 
   steps:
     - name: run ssh-agent
