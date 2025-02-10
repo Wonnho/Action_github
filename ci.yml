@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: Print new-world
-      - run: echo 'features/*'
+        run: echo 'features/*'
