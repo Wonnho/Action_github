@@ -1,0 +1,14 @@
+name:Hollo Github Action
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello-github:
+    runs-on:ubuntu-24.04
+
+
+    steps:
+      - name: Print Hello Github
+        run: echo 'Hello Github Action'
